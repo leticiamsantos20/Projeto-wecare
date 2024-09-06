@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+
+
+}
+
+.header {
+    margin: 44px 0 88px 76px;
+
+}
+
+img {
+    height: 490px;
+    margin-left: 110px;
+    width: 568px;
+}
+
+.link-header {
+    color: #989d9c;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 29px;
+    margin-right: 23px;
+    text-decoration: underline;
+}
+
+.link-header:hover {
+    color: #515151;
+    transition: 0.3s;
+}
+
+#button1 {
+    background: rgba(102, 90, 225, 1);
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    width: 130px;
+    height: 41px;
+}
+
+#button1:hover {
+    text-decoration: underline;
+    color: cadetblue;
+}
+#button1:active{
+    color: #ffffff;
+}
+#pricipal {
+    display: inline-block;
+    margin-left: 76px;
+
+}
+
+h1 {
+    color: #515151;
+    font-weight: 900px;
+    font-size: 50px;
+    line-height: 85px;
+    display: inline-block;
+}
+
+h2 {
+    color: #515151;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 42px;
+}
+
+p {
+    color: #848484;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    height: 87px;
+    width: 430px;
+}
+
+#explore {
+    border: none;
+    border-radius: 20px;
+    background: #ADFF00;
+    color: #000000;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+    height: 64px;
+    line-height: 35px;
+    margin: 80px 10px 20px 10px;
+    text-transform: uppercase;
+    width: 229px;
+}
+
+#explore:hover{
+    text-decoration: underline;
+    color: rgb(24, 190, 113);
+}
+#explore:active{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1030px) {
+
+    .header {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        position: static;
+        margin: 120px 92px 56px 32px ;
+    }
+
+    .link-header {
+        display: none;
+    }
+    #button1{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    h1{
+        width: 263px;
+        height: 52px;
+        font-size: 69px;
+        font-weight: 900;
+        line-height: 15px;
+        margin:20px 50px 5px 29px;
+    }
+    h2{
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 37px;
+        margin: 2px 166px 10px 35px;
+    }
+    #explore{
+        width: 239px;
+        height: 64px;
+        margin-top: 35px;
+
+    }
+}
